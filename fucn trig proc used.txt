@@ -1,0 +1,18 @@
+triggers:
+1. a. Prevent Booking More Than Once for Same Seat-Show
+b. Auto-Update Loyalty Points on Payment Success (50 rupees 10 point)
+c. Discount for High Loyalty Points (Your Example)
+d. Update Ticket Status to Confirmed on Payment Success
+e. Prevent Payment for Cancelled Tickets
+
+procedueres:
+a. Book Ticket (Full Transaction)
+Usage in GUI for atomic ticket + payment insert.
+b. Cancel Ticket
+c. apply for discount
+
+functions:
+1. Get User's Total Confirmed Bookings
+2. Get User's Total Loyalty Points
+3. Get Available Seats for a Show
+4. Get Total Earnings for a Show
